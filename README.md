@@ -19,6 +19,11 @@ Este projeto utiliza Docker Compose para orquestrar os containers de um banco de
 - **`.env`**: Arquivo para armazenar variáveis de ambiente, como senhas e configurações do banco de dados. **Não se deve versionar este arquivo no GitHub**.
 - **`.gitignore`**: Arquivo para ignorar arquivos e diretórios que não devem ser versionados, como o arquivo `.env`.
 
+## Arquitetura do Projeto
+A arquitetura do projeto pode ser visualizada no diagrama abaixo:
+
+
+
 ## Como Rodar o Projeto
 
 ### 1. Clonar o repositório

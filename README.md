@@ -29,3 +29,16 @@ cd seu-repositorio
 ```
 ### 2. Configurar as variáveis de ambiente
 Crie um arquivo .env no diretório raiz do projeto com o seguinte conteúdo:
+```
+MYSQL_ROOT_PASSWORD=sua-senha-aqui
+```
+### 3. Construir e rodar os containers
+```
+docker-compose up --build
+```
+
+### 4. Acessar aplicação Flask
+A aplicação Flask estará rodando na porta 3000. Você pode acessá-la no navegador com:
+```
+http://localhost:3000
+```

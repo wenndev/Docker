@@ -6,4 +6,4 @@ repos:
         entry: bash -c '.venv/Scripts/pip freeze > requirements.txt; git add requirements.txt'
         language: system
         pass_filenames: false
-        stages: [pre-commit]  # Ou remova essa linha, pois 'commit' é o padrão
+        stages: [pre-commit] # Ou remova essa linha, pois 'commit' é o padrão

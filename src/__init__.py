@@ -3,7 +3,6 @@ from .entities import Users as UsersModel
 
 # Repositório
 
-
 class UserRepo:
     def insert_user(self, name):
         with DBConnection() as db:

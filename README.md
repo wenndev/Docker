@@ -22,7 +22,7 @@ Este projeto utiliza Docker Compose para orquestrar os containers de um banco de
 ## Arquitetura do Projeto
 A arquitetura do projeto pode ser visualizada no diagrama abaixo:
 
-![Diagrama do Projeto](diagrama.png)
+![Diagrama do Projeto](image/diagrama.png)
 
 ## Como Rodar o Projeto
 
